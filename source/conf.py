@@ -16,6 +16,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
+import recommonmark
 
 # -- Project information -----------------------------------------------------
 
@@ -41,6 +42,7 @@ release = u'0.0.1'
 extensions = [
     'sphinx.ext.autodoc',
     "sphinx_rtd_theme",
+    "recommonmark",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
